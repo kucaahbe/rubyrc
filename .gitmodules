@@ -1,0 +1,3 @@
+[submodule "rails-templates"]
+	path = rails-templates
+	url = git://github.com/kucaahbe/rails-templates.git
