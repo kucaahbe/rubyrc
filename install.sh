@@ -2,6 +2,7 @@
 
 # install configuration files in home directory
 ln -svf $PWD/gemrc ~/.gemrc
+ln -svf $PWD/irbrc ~/.irbrc
 
 RAILS_TEMPLATES=$PWD/rails-templates
 cd $RAILS_TEMPLATES; sh install.sh; cd ..
