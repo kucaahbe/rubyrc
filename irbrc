@@ -67,5 +67,5 @@ IRB.conf[:HISTORY_FILE] = if File.readable? 'config/application.rb'
 # how many lines to save
 IRB.conf[:SAVE_HISTORY] = 1000
 
-include IRB::ShellHelpers
+self.extend IRB::ShellHelpers
 IRB::Extension.load_all!
