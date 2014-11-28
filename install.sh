@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 # install configuration files in home directory
 ln -svf $PWD/gemrc ~/.gemrc
